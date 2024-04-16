@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --clr-sunny: linear-gradient(135deg, #f6fad9, #ffcb63, #f88508);
+    --clr-cloudy: linear-gradient(135deg, #00feba, #5b548a);
+    --clr-rainy: linear-gradient(135deg, #bcbecb 0%, #56565f 97.5%);
+    --clr-night: linear-gradient(135deg, #000000 -10.7%, #21425f 88.8%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+html {
+    font: 16px/1.5 Poppins, sans-serif;
+}
+
+body {
+    background-color: #242127;
+}
+
+.card {
+    max-width: 30em;
+    background: var(--clr-cloudy);
+    color: #fff;
+    margin: 5em auto;
+    border-radius: 1em;
+    padding: 2.5em 2em;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search input[type="text"] {
+    border: 1px solid #000;
+    outline: 0;
+    background-color: #ebfffc;
+    color: #555;
+    padding: 0.7em 1.5em;
+    height: 3.5em;
+    border-radius: 1.8em;
+    flex: 1;
+    margin-right: 1em;
+    font-size: 1.1em;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    border-radius: 50%;
+    width: 4em;
+    height: 4em;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 1em;
+    margin: 0 auto;
+}
+
+.search button:hover {
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.8) inset;
+    transition: 0.2s ease-in;
+}
+
+.error {
+    text-align: left;
+    margin-left: 0.7em;
+    margin-top: 0.7em;
+    color: #ff0000;
+    font-weight: bold;
+    display: none;
+}
+
+.weather-icon {
+    width: 10.5em;
+    margin-top: 1.8em;
+    margin: 0 auto;
+}
+
+.weather h1 {
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.weather h2 {
+    font-size: 2.7em;
+    font-weight: bold;
+}
+
+.weather .description {
+    margin-top: -1em;
+}
+
+.weather .feels-like {
+    font-size: 1.2em;
+    margin-top: -1.5em;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.2em;
+    margin-top: 2.7em;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.column img {
+    width: 2.5em;
+    margin-right: 0.7em;
+}
+
+.humidity, .wind {
+    font-size: 1.8em;
+    margin-top: -0.4em;
+}
+
+.weather {
+    display: none;
+}
