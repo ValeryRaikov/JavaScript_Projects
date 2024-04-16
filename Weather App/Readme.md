@@ -6,13 +6,13 @@ When the app is opened for the first time it consists only of a searchbox and a 
 
 When a city is passed to the searchbox and the search button is clicked, a GET request is sent to the API to fetch information that is visualised in our app.
 Depending on the current weather conditions the weather icon changes as well as the background theme of the application. Let's see some examples: <br>
-1.Sunny weather (warm background):
+1.Sunny weather (warm background): <br>
 ![image](https://github.com/ValeryRaikov/JavaScript_Projects/assets/124359973/177fa3cb-4c55-49b7-8057-126a251186ba) <br>
-2.Drizzy weather:
+2.Drizzy weather: <br>
 ![image](https://github.com/ValeryRaikov/JavaScript_Projects/assets/124359973/d657a2e1-11ed-491c-ad39-2e291881bb81) <br>
-3.Rainy weather (cold background):
+3.Rainy weather (cold background): <br>
 ![image](https://github.com/ValeryRaikov/JavaScript_Projects/assets/124359973/1e0cbc55-b534-42e5-b105-8cdca7dd0261) <br>
-4.Night conditions:
+4.Night conditions: <br>
 ![image](https://github.com/ValeryRaikov/JavaScript_Projects/assets/124359973/a9e23224-edc1-4874-a52a-23a8eaa8ad09) <br>
 
 Some more specifics: for example if the temperature is too high, the color becomes red, whereas if it is beyond 0 degrees it becomes blue! If the wind speed
