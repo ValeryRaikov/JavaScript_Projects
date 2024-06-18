@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 "Courier New", "Helvetica Neue", Courier, monospace;
+}
+
+body {
+    background-color: #ccc;
+    text-align: center;
+    margin: 2em auto;
+}
+
+h1 {
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
+h2 {
+    font-size: 1.6em;
+    display: none;
+}
+
+canvas #board {
+    display: none;
+}
+
+.options {
+    display: inline-block;
+    padding: 2em;
+}
+
+.options button {
+    color: #fff;
+    border: none;
+    border-radius: 0.5em;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+.options #play-btn {
+    background-color: #006943;
+    margin-right: 2em;
+}
+
+.options #close-btn {
+    background-color: #e11919;
+}
+
+.options #play-btn:hover {
+    background-color: #00442b;
+}
+
+.options #close-btn:hover {
+    background-color: #870707;
+}
+
+.options button:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.3s ease-in;
+}
