@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 1em auto;
+    text-align: center;
+    background-image: url('../Blackjack/cards/board-background.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 2.4em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+#dealer-cards img, 
+#your-cards img {
+    height: 175px;
+    width: 125px;
+    margin: 2px;
+    border-radius: 0.3em;
+}
+
+#hit,
+#stay {
+    height: 50px;
+    width: 100px;
+    font-size: 1.4em;
+    font-weight: 600;
+    border: 1px solid #000;
+    border-radius: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#hit {
+    margin-right: 1em;
+}
+
+#hit:hover,
+#stay:hover {
+    background-color: #a0a0a0;
+    transition: background-color 0.2s ease-in;
+}
+
+#results {
+    text-shadow: 3px 3px 5px #000;
+}
+
+.instructions {
+    position: fixed;
+    text-align: center;
+    bottom: 1em;
+    width: 100%;
+}
+
+.instructions .title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+.instructions .subtitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: 600;
+    font-style: italic;
+    opacity: 0.8;
+}

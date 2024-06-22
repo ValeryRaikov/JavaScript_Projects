@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="cards/A-S.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Black Jack Game</title>
+</head>
+
+<body>
+    <h2>Dealer: <span id="dealer-total"></span></h2>
+    <div id="dealer-cards">
+        <img src="cards/BACK.png" id="hidden">
+    </div>
+
+    <h2>You: <span id="your-total"></span></h2>
+    <div id="your-cards"></div>
+
+    <br>
+
+    <button id="hit">Hit</button>
+    <button id="stay">Stay</button>
+    <h3 id="results"></h3>
+
+    <div class="instructions">
+        <p class="title">blackjack pays 3 to 2</p>
+        <p class="subtitle">Dealer Must Stand Soft 17</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
